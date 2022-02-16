@@ -1,0 +1,78 @@
+<div class="my-3">
+  <h3 class="text-danger">
+    Filter operator:
+    <span class="text-primary">
+      Emit values that pass the provided condition.
+    </span>
+  </h3>
+  <br />
+
+  <div class="row">
+    <div class="col-md-4">
+      <strong>Ex: 01</strong>
+      <hr />
+      <p class="p-heading"><Strong>Filter</Strong> By name length(>6)</p>
+      <br />
+      <table class="table text-white">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of data1">
+            <td>{{ item.id }}</td>
+            <td>{{ item.name }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col-md-4">
+      <strong>Ex: 02</strong>
+      <hr />
+      <p class="p-heading"><Strong>Filter</Strong>By gender</p>
+      <br />
+      <table class="table text-white">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Gender</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of data2">
+            <td>{{ item.id }}</td>
+            <td>{{ item.name }}</td>
+            <td>{{ item.gender }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col-md-4">
+      <strong>Ex: 03</strong>
+      <hr />
+      <p class="p-heading"><Strong>Filter</Strong>By Nth Item</p>
+      <br />
+      <table class="table text-white">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Gender</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of data3">
+            <td>{{ item.id }}</td>
+            <td>{{ item.name }}</td>
+            <td>{{ item.gender }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

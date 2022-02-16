@@ -1,0 +1,43 @@
+<div class="my-3">
+  <h3 class="text-danger">
+    Pluck operator:
+    <span class="text-primary">
+      Like map, but meant only for picking one of the nested properties of every
+      emitted value. (kisi data ke object ki property ka data lene me help karta
+      hai)
+    </span>
+  </h3>
+  <br />
+
+  <div class="row">
+    <div class="col-md-6">
+      <strong>Ex: 01</strong>
+      <hr />
+      <p class="p-heading"><Strong>Pluck</Strong> By property</p>
+      <br />
+      <table>
+        <tr>
+          <th>Name</th>
+        </tr>
+        <tr *ngFor="let item of data">
+          <td>{{ item }}</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="col-md-6">
+      <strong>Ex: 02</strong>
+      <hr />
+      <p class="p-heading"><Strong>Pluck</Strong>Nested property</p>
+      <br />
+      <table>
+        <tr>
+          <th>Title</th>
+        </tr>
+        <tr *ngFor="let item of data2">
+          <td>{{ item }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,1 +1,68 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./assets/gplay.png");
+  background-color: black;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.headingRxjs:hover {
+  color: cornsilk;
+}
+
+strong {
+  color: crimson;
+  padding: 0 0.5rem 0 0;
+}
+
+.operators_link {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.operators_link > li {
+  border: 1px solid navy;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  list-style-type: none;
+  background-color: #fff;
+}
+
+.operators_link > li:hover {
+  border: 2px solid #000;
+  background-color: floralwhite;
+}
+
+.operators_link > li::before {
+  content: "😍";
+  text-align: center;
+}
+
+.operators_link > li > a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: brown;
+}
+
+.operators_link > li > a:hover {
+  color: red;
+}
+
+.operators_link > li > a::first-letter {
+  color: black;
+}
+.p-heading {
+  padding: 1rem;
+  border: 1px solid #663399;
+  background-color: cornsilk;
+  color: black;
+}
+
+.p-heading:hover {
+  background-color: gainsboro;
+}
